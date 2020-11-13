@@ -1,0 +1,96 @@
+
+
+.cb {
+    clear: both;
+    height: 1px;
+    font-size: 0px;
+    line-height: 0px;
+}
+
+/* pour être reconnu par tous les navigateurs */
+header{
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+}
+
+body
+{
+    background-color: rgb(230,229,226); /* Le fond de la page */
+    font: .8em Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+
+div#conteneur{
+    width: 1200px;
+}
+
+#logo{
+    position: absolute;
+    top: -10px;
+    left: 50px;
+}
+
+
+#navigation {
+    margin-left: 100px;
+}
+#navigation ul li{
+    display: inline-block;
+    margin-left: 10px;
+    padding: 10px;
+    background: rgb(244,243,242);
+}
+
+#navigation ul li a {
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+    /*background: rgb(99,87,86);  */
+    /*border: 1px solid rgb(99,87,86); */
+    border-radius: 3px;
+}
+
+main{
+    width: 800px;
+    align-content: center;
+}
+
+/*.share a {
+    background: red;
+    border: 1px solid red;
+    border-radius: 3px;
+    color: white;
+    margin: 10px;
+ 
+
+  }
+  */
+
+  #navigation a:hover {
+    background: rgb(99,87,86);
+    border: 1px solid rgb(244,243,242);
+    color: rgb(244,243,242);
+  }
+
+.content-block {
+    width: 800px;
+    height: 475;
+    margin-top: 100px;
+}
+.content-block .block-img {
+    float: left;
+    width: 50%;
+}
+.content-block > article {
+    float : left;
+    width: 50%;
+}
+
+p{
+    color: rgb(234,233,230);
+}
